@@ -1,0 +1,30 @@
+Singleton Pattern
+
+1. Singleton pattern ensures that,
+a) a class has one and only one instance at any given point during the runtime of the application &
+b) and it provides a global point of access to it.
+
+2. A class having only one instance means we have to stop other classes to do a "new" on that class.
+As we can not declare a outer class as private in java, the other option is to make the "constructor private".
+
+3. To provide a global point of access, we can define a static method which returns the same instance of the class
+every time it is called.
+
+4. Ensuring that there is only one instance at any given point of time in the application,
+is little difficult to achieve. A lot depends on how you are constructing the class.
+
+5. java.lang.Runtime is a singleton class. Here is the note from the class itself.
+
+/**
+ * Every Java application has a single instance of class
+ * {@code Runtime} that allows the application to interface with
+ * the environment in which the application is running. The current
+ * runtime can be obtained from the {@code getRuntime} method.
+ *
+ * An application cannot create its own instance of this class.
+ *
+ * @author  unascribed
+ * @see     java.lang.Runtime#getRuntime()
+ * @since   1.0
+ */
+
