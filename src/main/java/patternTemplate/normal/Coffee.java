@@ -1,4 +1,4 @@
-package patternTemplate.without;
+package patternTemplate.normal;
 
 public class Coffee {
     public void prepareRecipe() {

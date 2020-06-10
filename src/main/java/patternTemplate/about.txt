@@ -15,3 +15,15 @@ well template method allows the client to perform those steps in their own way.
 in the Arrays utility class which includes comparison step, now comparison can be different
 for different client(objects in the arrays), and hence implementing the comparison step is
 left upon the client.
+
+5. The Strategy and Template Method Patterns both encapsulate algorithms,
+one by inheritance and one by composition. In Strategy, the class that you compose,
+implements the entire algorithm.
+
+6. Strategy pattern define a *family of algorithms*(different algorithms) and make them interchangeable.
+Since each algorithm is encapsulated, the client can use different algorithms easily.
+whereas,
+Template method pattern can have *different implementations of one algorithm’s individual steps*,
+but keep control over the algorithm’s structure.
+
+7. The Factory Method is a specialization of Template Method.

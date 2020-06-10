@@ -1,4 +1,4 @@
-package patternTemplate.without;
+package patternTemplate.normal;
 
 /*
 * Both Tea & Coffee classes have prepareRecipe() method,
