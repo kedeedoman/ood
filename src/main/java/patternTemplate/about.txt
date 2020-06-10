@@ -1,0 +1,17 @@
+Template Method Pattern,
+
+1. The Template Method defines the steps of an algorithm and allows
+subclasses to provide the implementation for one or more steps.
+
+2. This is one of the simple but widely used pattern(with variations),
+the idea is really simple,
+
+3. Suppose you have a method in one of the classes, which executes 4 steps to perform a task,
+i.e. 4 steps algorithm(hence the order of the steps remains intact),
+where one or more steps depends on the way the client wants to use this algorithm,
+well template method allows the client to perform those steps in their own way.
+
+4. For example, Arrays.sort() operation, all the steps needed to sort the array is defined
+in the Arrays utility class which includes comparison step, now comparison can be different
+for different client(objects in the arrays), and hence implementing the comparison step is
+left upon the client.
